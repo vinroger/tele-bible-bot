@@ -1,0 +1,26 @@
+{
+  "name": "tele-bible-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.15.0",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.0",
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "openapi": "^1.0.1"
+  }
+}
